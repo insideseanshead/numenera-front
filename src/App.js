@@ -1,9 +1,9 @@
-
+import CharacterDescription from "./components/CharacterDescription";
 
 function App() {
   return (
     <div className="App">
-      Hello
+      <CharacterDescription />
     </div>
   );
 }
