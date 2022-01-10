@@ -40,3 +40,49 @@ header {
   margin: 20px 0;
   position: relative;
 }
+
+.pool {
+  background-color: #fff;
+  color: #333;
+  border: 2px #997D4E solid;
+  border-radius: 15px;
+  padding: 15px 30px;
+  margin: 10px 0;
+}
+
+.edge {
+  background-color: #fff;
+  color: #333;
+  border: 3px #3A4B83 solid;
+  border-radius: 15px;
+  padding: 15px 30px;
+  margin: 10px 0;
+}
+
+.characterStat {
+  font-size: 3rem;
+  background-color: #fff;
+  color: #333;
+  border: 2px #333 solid;
+  border-radius: 15px;
+  padding: 15px 30px;
+  margin: 10px 0;
+}
+
+.cost {
+  background-color: #fff;
+  color: #333;
+  border: 2px #997D4E solid;
+  border-radius: 15px;
+  padding: 15px 20px;
+  margin: 10px 0;
+}
+
+.armor-value {
+  background-color: #fff;
+  color: #333;
+  border: 2px #997D4E solid;
+  border-radius: 15px;
+  padding: 15px 20px;
+  margin: 10px 0;
+}
