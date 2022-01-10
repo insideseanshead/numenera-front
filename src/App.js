@@ -1,6 +1,7 @@
 import CharacterDescription from "./components/CharacterDescription";
 import CharacterStats from "./components/CharacterStats";
 import Header from "./components/Header";
+import Card from "./shared/Card";
 import { CharacterProvider } from "./context/CharacterContext";
 import { Row, Col } from "react-bootstrap";
 
@@ -9,13 +10,20 @@ function App() {
     <CharacterProvider>
       <div className="container">
         <Row>
-          <Col>Special Abilities and Cyphers</Col>
           <Col>
-          <Header />
-          <CharacterDescription />
-          <CharacterStats />
+            <Card>Special Abilities</Card>
+            <Card>Cyphers</Card>
           </Col>
-          <Col>Skills/Inabilities, Equipment, Attacks</Col>
+          <Col>
+            <Header />
+            <CharacterDescription />
+            <CharacterStats />
+          </Col>
+          <Col>
+            <Card>Skills/Inabilities</Card>
+            <Card>Equipment</Card>
+            <Card>Attacks</Card>
+          </Col>
         </Row>
       </div>
     </CharacterProvider>
