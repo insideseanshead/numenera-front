@@ -1,10 +1,15 @@
 import CharacterDescription from "./components/CharacterDescription";
+import Header from "./components/Header";
+import { CharacterProvider } from "./context/CharacterContext";
 
 function App() {
   return (
-    <div className="container">
-      <CharacterDescription />
-    </div>
+    <CharacterProvider>
+      <div className="container">
+        <Header />
+        <CharacterDescription />
+      </div>
+    </CharacterProvider>
   );
 }
 
