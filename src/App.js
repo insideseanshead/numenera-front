@@ -2,7 +2,7 @@ import CharacterDescription from "./components/CharacterDescription";
 
 function App() {
   return (
-    <div className="App">
+    <div className="container">
       <CharacterDescription />
     </div>
   );

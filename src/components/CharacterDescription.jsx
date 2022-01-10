@@ -1,9 +1,10 @@
+import Card from "../shared/Card"
 
 
 const CharacterDescription = () => {
     
     return (
-        <div className="description">
+        <Card className="description">
             <div className="character-name">
                 <span className="emphasis">SEAN</span> IS A
             </div>
@@ -13,7 +14,7 @@ const CharacterDescription = () => {
             <div className="character-focu">
                 WHO <span className="emphasis">TAKES NAMES</span>
             </div>
-        </div>
+        </Card>
     )
 }
 
