@@ -1,7 +1,7 @@
 const Header = () => {
     return (
         <div className="header">
-            Numenera
+            <h1>Numenera</h1>
         </div>
     )
 }

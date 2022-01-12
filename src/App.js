@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import Card from "./shared/Card";
 import { CharacterProvider } from "./context/CharacterContext";
 import { Row, Col } from "react-bootstrap";
+import TierInfo from "./components/TierInfo";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
             <Header />
             <CharacterDescription />
             <CharacterStats />
+            <TierInfo />
           </Col>
           <Col>
             <Card>Skills/Inabilities</Card>
