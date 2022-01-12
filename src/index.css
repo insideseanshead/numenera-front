@@ -41,22 +41,33 @@ header {
   position: relative;
 }
 
+.stats{
+  /* padding: auto;  */
+  
+}
+
+.stat-title {
+  text-align: center;
+  background-color: #871106;
+  padding: .25rem
+}
+
 .pool {
   background-color: #fff;
   color: #333;
   border: 2px #997D4E solid;
-  border-radius: 15px;
+  border-radius: 5px 20px 5px;
   padding: 15px 30px;
-  margin: 10px 0;
+  /* margin: 10px 0; */
 }
 
 .edge {
   background-color: #fff;
   color: #333;
   border: 3px #3A4B83 solid;
-  border-radius: 15px;
+  border-radius: 20px 5px 20px 20px;
   padding: 15px 30px;
-  margin: 10px 0;
+  margin: 5px 0;
 }
 
 .characterStat {
@@ -64,25 +75,29 @@ header {
   background-color: #fff;
   color: #333;
   border: 2px #333 solid;
-  border-radius: 15px;
+  border-radius: 50%;
   padding: 15px 30px;
   margin: 10px 0;
 }
 
+.armor-title {
+  text-align: center;
+}
+
 .cost {
   background-color: #fff;
+  text-align: center;
   color: #333;
-  border: 2px #997D4E solid;
-  border-radius: 15px;
+  border: 3px #871106 solid;
+  border-radius: 50%;
   padding: 15px 20px;
-  margin: 10px 0;
 }
 
 .armor-value {
   background-color: #fff;
+  text-align: center;
   color: #333;
-  border: 2px #997D4E solid;
-  border-radius: 15px;
+  border: 3px #339983 solid;
+  border-radius: 5px 20px 20px 5px;
   padding: 15px 20px;
-  margin: 10px 0;
 }

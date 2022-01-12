@@ -6,6 +6,11 @@ const CharacterStats = () => {
       {/* Might */}
       <div className="might">
         <Row>
+          <Col>
+            <h4 className="stat-title">Might</h4>
+          </Col>
+        </Row>
+        <Row>
           <Col xs={3}>
             <div className="mods">
               <div className="pool">12</div>
@@ -20,6 +25,11 @@ const CharacterStats = () => {
       {/* speed */}
       <div className="speed">
         <Row>
+          <Col>
+            <h4 className="stat-title">Speed</h4>
+          </Col>
+        </Row>
+        <Row>
           <Col xs={3}>
             <div className="mods">
               <div className="pool">16</div>
@@ -31,6 +41,14 @@ const CharacterStats = () => {
           </Col>
           <Col>
             <div className="armor">
+              <Row>
+                <Col>
+                  <h6 className="armor-title">Cost</h6>
+                </Col>
+                <Col>
+                  <h6 className="armor-title">Armor</h6>
+                </Col>
+              </Row>
               <Row>
                 <Col xs={6}>
                   <div className="cost">1</div>
@@ -45,6 +63,11 @@ const CharacterStats = () => {
       </div>
       {/* Intellect */}
       <div className="intellect">
+        <Row>
+          <Col>
+            <h4 className="stat-title">Intellect</h4>
+          </Col>
+        </Row>
         <Row>
           <Col xs={3}>
             <div className="mods">
